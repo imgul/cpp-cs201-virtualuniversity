@@ -54,7 +54,8 @@
 			[
 				0,
 				1,
-				4
+				4,
+				5
 			]
 		}
 	],
@@ -89,7 +90,8 @@
 			[
 				0,
 				1,
-				4
+				4,
+				5
 			]
 		},
 		{
@@ -97,7 +99,8 @@
 			"sourceIndexes" : 
 			[
 				2,
-				3
+				3,
+				6
 			]
 		}
 	],
@@ -130,6 +133,17 @@
 			"compileGroupIndex" : 0,
 			"path" : "sources/arrays_userinput.cpp",
 			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "sources/arrays_sumof_squaresof_array.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "sources/arrays_sumof_squaresof_array.h",
+			"sourceGroupIndex" : 1
 		}
 	],
 	"type" : "EXECUTABLE"

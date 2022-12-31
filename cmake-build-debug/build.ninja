@@ -67,6 +67,12 @@ build CMakeFiles/cs201.dir/sources/arrays_userinput.cpp.o: CXX_COMPILER__cs201_D
   OBJECT_DIR = CMakeFiles/cs201.dir
   OBJECT_FILE_DIR = CMakeFiles/cs201.dir/sources
 
+build CMakeFiles/cs201.dir/sources/arrays_sumof_squaresof_array.cpp.o: CXX_COMPILER__cs201_Debug /home/gul/CLionProjects/cs201/sources/arrays_sumof_squaresof_array.cpp || cmake_object_order_depends_target_cs201
+  DEP_FILE = CMakeFiles/cs201.dir/sources/arrays_sumof_squaresof_array.cpp.o.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++23
+  OBJECT_DIR = CMakeFiles/cs201.dir
+  OBJECT_FILE_DIR = CMakeFiles/cs201.dir/sources
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target cs201
@@ -75,7 +81,7 @@ build CMakeFiles/cs201.dir/sources/arrays_userinput.cpp.o: CXX_COMPILER__cs201_D
 #############################################
 # Link the executable cs201
 
-build cs201: CXX_EXECUTABLE_LINKER__cs201_Debug CMakeFiles/cs201.dir/main.cpp.o CMakeFiles/cs201.dir/sources/pointer_variable_address_operator.cpp.o CMakeFiles/cs201.dir/sources/arrays_userinput.cpp.o
+build cs201: CXX_EXECUTABLE_LINKER__cs201_Debug CMakeFiles/cs201.dir/main.cpp.o CMakeFiles/cs201.dir/sources/pointer_variable_address_operator.cpp.o CMakeFiles/cs201.dir/sources/arrays_userinput.cpp.o CMakeFiles/cs201.dir/sources/arrays_sumof_squaresof_array.cpp.o
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/cs201.dir
   POST_BUILD = :
